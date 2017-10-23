@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Koverwatch';
+    src: url('koverwatch.eot');
+    src: url('koverwatch.eot?#iefix') format('embedded-opentype'),
+         url('koverwatch.woff') format('woff'),
+         url('koverwatch.svg#koverwatchregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.onlymobile {
+  display:none;
+}
+
+body {
+  text-align:center;
+  margin:0 10px;
+  background-color:#060606;
+  font-family: 'Koverwatch';
+  color:white;
+}
+
+a {
+  color:white;
+}
+
+canvas {
+  border:2px solid rgba(255,255,255,0.7);
+  margin-bottom:3px;
+  width:100%;
+  max-width: 640px;
+}
+
+#title {
+  color:#FBF6EF;
+  font-size:40pt;
+  font-style: italic;
+  text-shadow: 0px 0px 5px white;
+  margin:30px 0 5px 0;
+}
+
+#title > span {
+  color:#FFE02B;
+}
+
+#subtitle {
+  color:#FBF6EF;
+  font-size:20pt;
+  text-shadow: 0px 0px 5px white;
+  margin:0 0 50px 0;
+}
+
+#info {
+  color:rgba(255, 255, 255, 0.7);
+}
+
+#inputContainer {
+  margin-top:20px;
+}
+
+input[type=text] {
+  background-color:transparent;
+  border:2px solid rgba(255,255,255,0.7);
+  padding:7px;
+  font-family: 'Koverwatch';
+  color:#FBF6EF;
+  font-size:15pt;
+}
+
+input[type=file] {
+  color:transparent;
+  width:80px;
+}
+
+button {
+  background-color:#FCBD49;
+  border:2px solid #FCBD49;
+  padding:7px;
+  font-family: 'Koverwatch';
+  color:#FFF;
+  text-shadow: 0px 0px 1px black;
+  font-size:15pt;
+}
+
+@media screen and (max-width:768px) {
+  #title {
+    font-size:25pt;
+  }
+
+  #subtitle {
+    font-size:15pt;
+    margin-bottom:20px;
+  }
+
+  input[type=text] {
+    width:100%;
+    margin-bottom:5px;
+  }
+
+  #inputContainer {
+    margin-top:20px;
+  }
+}
